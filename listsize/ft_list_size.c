@@ -6,7 +6,7 @@ int ft_list_size(t_list *begin_list)
 
 	while (begin_list)
 	{
-		biegin_list = begin_list->next;
+		begin_list = begin_list->next;
 		size++;
 	}
 	return size;
